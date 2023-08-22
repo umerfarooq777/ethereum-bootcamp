@@ -18,8 +18,8 @@ const root = merkleTree.getRoot();
 // find the proof that norman block is in the list 
 
 //!===================================== uncomment on of the given name below
-// const name = 'Norman Block';
-const name = 'Sidney Kertzmannsiodsjs';
+const name = 'Norman Block';
+// const name = 'Sidney Kertzmannsiodsjs';
 const index = niceList.findIndex(n => n === name);
 const proof = merkleTree.getProof(index);
 

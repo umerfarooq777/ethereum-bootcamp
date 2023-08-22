@@ -37,7 +37,7 @@ const MERKLE_ROOT = root;
 app.post('/gift', (req, res) => {
   // grab the parameters from the front-end here
   const {clientProof,name} = req.body;
-  // console.log(body.clientProof);
+  console.log(clientProof,"clientProof");
 
   // TODO: prove that a name is in the list 
   // const isInTheList = false;
